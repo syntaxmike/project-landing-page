@@ -95,7 +95,7 @@ ul {
 
 .header,
 .main-container {
-    padding: 4px 92px 24px 92px;
+    padding: 4px 240px 24px 240px;
 }
 
 .header {
@@ -162,9 +162,8 @@ ul {
 
 .quote-ref {
     font-weight: bold;
-    margin-left: auto;
     padding-top: 12px;
-    padding-right: 96px;
+    text-align: center;
 }
 
 .text-tagline {
