@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 a {
@@ -44,12 +43,39 @@ ul {
     list-style: none;
 }
 
+.action-container {
+    align-self: center;
+    align-items: center;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    margin: 40px 0;
+    width: 600px;
+}
+
+
 .action-container > button {
     border: 2px solid white;
 }
 
+.action-text {
+    align-self: flex-start;
+    padding: 24px;
+}
+
+.action-text > p {
+    margin: 0;
+}
+
+.card {
+    max-width: 300px;
+}
+
 .comp-info {
-    width: 600px;
+    flex: 1;
+    max-width: 600px;
 }
 
 .footer {
@@ -95,6 +121,7 @@ ul {
 .info-container {
     align-items: center;
     display: flex;
+    flex: 1;
     flex-wrap: wrap;
     font-size: 14px;
     justify-content: space-evenly;
@@ -124,7 +151,20 @@ ul {
 }
 
 .quote-container {
+    align-items: center;
     background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 96px;
+}
+
+.quote-ref {
+    font-weight: bold;
+    margin-left: auto;
+    padding-top: 12px;
+    padding-right: 96px;
 }
 
 .text-tagline {
