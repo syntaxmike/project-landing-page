@@ -41,6 +41,7 @@ ul {
     display: flex;
     gap: 12px;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 .action-container {
@@ -74,8 +75,8 @@ ul {
 }
 
 .comp-info {
-    flex: 1;
     max-width: 600px;
+    flex-wrap: wrap;
 }
 
 .footer {
@@ -122,7 +123,6 @@ ul {
     align-items: center;
     display: flex;
     flex: 1;
-    flex-wrap: wrap;
     font-size: 14px;
     justify-content: space-evenly;
 }
